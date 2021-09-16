@@ -1,0 +1,14 @@
+C:\Users\Eversince001\source\repos\Lesson1\Lesson1\bin\Debug\netcoreapp3.1\Lesson1.exe
+C:\Users\Eversince001\source\repos\Lesson1\Lesson1\bin\Debug\netcoreapp3.1\Lesson1.deps.json
+C:\Users\Eversince001\source\repos\Lesson1\Lesson1\bin\Debug\netcoreapp3.1\Lesson1.runtimeconfig.json
+C:\Users\Eversince001\source\repos\Lesson1\Lesson1\bin\Debug\netcoreapp3.1\Lesson1.runtimeconfig.dev.json
+C:\Users\Eversince001\source\repos\Lesson1\Lesson1\bin\Debug\netcoreapp3.1\Lesson1.dll
+C:\Users\Eversince001\source\repos\Lesson1\Lesson1\bin\Debug\netcoreapp3.1\Lesson1.pdb
+C:\Users\Eversince001\source\repos\Lesson1\Lesson1\obj\Debug\netcoreapp3.1\Lesson1.csproj.AssemblyReference.cache
+C:\Users\Eversince001\source\repos\Lesson1\Lesson1\obj\Debug\netcoreapp3.1\Lesson1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eversince001\source\repos\Lesson1\Lesson1\obj\Debug\netcoreapp3.1\Lesson1.AssemblyInfoInputs.cache
+C:\Users\Eversince001\source\repos\Lesson1\Lesson1\obj\Debug\netcoreapp3.1\Lesson1.AssemblyInfo.cs
+C:\Users\Eversince001\source\repos\Lesson1\Lesson1\obj\Debug\netcoreapp3.1\Lesson1.csproj.CoreCompileInputs.cache
+C:\Users\Eversince001\source\repos\Lesson1\Lesson1\obj\Debug\netcoreapp3.1\Lesson1.dll
+C:\Users\Eversince001\source\repos\Lesson1\Lesson1\obj\Debug\netcoreapp3.1\Lesson1.pdb
+C:\Users\Eversince001\source\repos\Lesson1\Lesson1\obj\Debug\netcoreapp3.1\Lesson1.genruntimeconfig.cache

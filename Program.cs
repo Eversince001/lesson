@@ -145,9 +145,10 @@ namespace Lesson1
                 }
 
             }
-            cicle tasks = new cicle();
 
-            tasks.task4(10);
+            auto Auto = new auto();
+
+
 
             Console.Read();
 

@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.IO;
 
 namespace Lesson1
 {
+
 //    Разработайте и реализуйте консольное приложение, которое:
 //  - запрашивает у пользователя данные о студенте, ФИО + оценки(запрос данных нужно
 //    оформить в виде функции)
@@ -17,13 +19,32 @@ namespace Lesson1
 
 //  - выводит на экран полный список студентов; список студентов, имеющих только отличные
 //  оценки; список студентов, имеющих хотя бы одну неудовлетворительную оценку
+
     class Students
     {
+
         private List<List<string>> students;
 
         public Students()
         {
             students = new List<List<string>>();
+            StreamReader read = new StreamReader(@"C:\Users\Eversince001\source\repos\Lesson1\Lesson1\students.txt");
+
+            string line = "";
+
+            while (true)
+            {
+                line = read.ReadLine();
+                if (line == null) break;
+                students.Add(new List<string>());
+                students[students.Count - 1].Add(line);
+                line = read.ReadLine();
+                students[students.Count - 1].Add(line);
+            }
+
+            read.Close();
+
+
         }
 
         public void AddData()
@@ -44,7 +65,17 @@ namespace Lesson1
                 students.Add(new List<string>());
                 students[students.Count - 1].Add(FIOstudent);
                 students[students.Count - 1].Add(rating);
-                
+
+                StreamWriter writer = new StreamWriter(@"C:\Users\Eversince001\source\repos\Lesson1\Lesson1\students.txt");
+
+                for (int i = 0; i < students.Count; i++)
+                {
+                    writer.WriteLine(students[i][0]);
+                    writer.WriteLine(students[i][1]);
+                }
+
+                writer.Close();
+
                 Console.WriteLine("Информация о студенте добавлена в базу данных \n");
             }   
             else

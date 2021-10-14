@@ -1,0 +1,20 @@
+﻿aaa aaa aaa
+mazda
+2001
+2222
+bbb bbb bbb
+lexus
+2002
+2223
+ccc ccc cccc
+mazda
+2001
+2233
+ddd ddd ddd
+lexus
+2002
+2224
+ddd ddd ddd
+lexus
+2001
+2224

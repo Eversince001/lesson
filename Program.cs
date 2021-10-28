@@ -145,10 +145,55 @@ namespace Lesson1
                 }
 
             }
+            var rand = new Random();
+            deque d = new deque();
+            stack s = new stack();
+            for (int i = 1; i < 11; i++)
+            {
+                d.push_back(rand.Next(1, 10));
+            }
+            for (int i = 1; i < 11; i++)
+            {
+                s.push_back(rand.Next(1, 10));
+            }
 
-            auto Auto = new auto();
+            int count = 0;
 
+            List<int> list_d = d.deque_storage();
+            List<int> list_s = s.stack_storage();
 
+            deque d1 = d.Copy();
+            stack s1 = s.Copy();
+
+            for (int i = 0; i < s1.count(); i++)
+            {
+                Console.Write(list_s[i].ToString() + " ");
+            }
+            Console.Write('\n');
+
+            for (int i = 0; i < d1.count(); i++)
+            {
+                Console.Write(list_d[i].ToString() + " ");
+            }
+            Console.Write('\n');
+
+            for (int i = 0; i < d1.count(); i++)
+            {
+                var deq = d1.pop_back();
+                for (int j = 0; j < s1.count(); j++)
+                {
+                    var st = s1.pop_back();
+                    j--;
+                  
+                    if (st == deq)
+                    {
+                        count++;
+                    }
+                }
+                s1 = s.Copy();
+            }
+
+            Console.WriteLine(count);
 
             Console.Read();
 

@@ -46,7 +46,6 @@ namespace Lesson1
 
             read.Close();
 
-
         }
 
         public List<List<string>> Copy(List<List<string>> List)
@@ -198,10 +197,8 @@ namespace Lesson1
 
             }
 
-
             Stolen.Clear();
             return tmp;
-
         }
     }
 }

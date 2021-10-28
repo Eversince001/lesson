@@ -43,8 +43,6 @@ namespace Lesson1
             }
 
             read.Close();
-
-
         }
 
         public void AddData()
